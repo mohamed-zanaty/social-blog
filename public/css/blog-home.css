@@ -1,0 +1,190 @@
+/*!
+ * Start Bootstrap - Blog Home (https://startbootstrap.com/template-overviews/blog-home)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-home/blob/master/LICENSE)
+ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body button{
+    outline: none !important;
+}
+body{
+  background-color: #f8f9fa;
+
+}
+
+/* startttttttt*/
+nav{
+  background-color: #3d29d7;
+  position: fixed;
+}
+nav .navbar-brand{
+  color: white;
+  font-size: 24px;
+}
+nav ul {
+  text-align: center;
+  margin: auto;
+  font-size: 18px;
+}
+nav button {
+  color:white !important;
+}
+nav ul li {
+  margin-right: 10px;
+
+}
+nav ul li a{
+  color: white;
+  font-size: 18px;
+  transition: all .3s ease-in-out;
+}
+nav .collapse ul li .active{
+  color: #3736c6 !important;
+
+  font-weight: 500;
+}
+
+nav ul li a:hover{
+  border: none !important;
+  background: white;
+  font-weight:400 ;
+  color: #3736c6;
+}
+/*END nav */
+/*START  WELCOME */
+.personal-inf{
+  background-color: #e8d9f8;
+    margin-bottom: 20px;
+}
+
+.welcome{
+  font-size: 20px;
+  margin: 10px 10PX 10px 0;
+  color: grey;
+  display: inline-block;
+}
+.user-name{
+  font-size: 21px;
+  color: #3736c6;
+  cursor: pointer;
+}
+/*END  WELCOME */
+.card{
+  box-shadow: 1px 1px 5px -1px
+}
+.card h5{
+  color: grey;
+}
+.card ul li{
+  transition: all .3s ease-in-out;
+}
+
+.card ul li a{
+color: black;
+  font-size: 17px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.card ul li:hover{
+color: white;
+
+  background-image: linear-gradient(-90deg, white, #3736c6);
+}
+                    /*START POST*/
+.media{
+  margin-top: 20px;
+
+}
+.media .media-body{
+  padding: 10px;
+  box-shadow: 1px 1px 5px -1px;
+  border-radius: 5px;
+}
+.about small{
+   font-size: 15px;
+   color: grey;
+   font-weight: 500;
+}
+.post .about .kind-of-cat{
+   font-size: 15px;
+   color: #3736c6;
+   font-weight: 500;
+  cursor: pointer;
+  margin-right: 5px;
+}
+.post .media .like{
+  margin-top: 14px;
+
+}
+.post .media .like button{
+  width: 20%;
+  margin: auto;
+}
+
+/*START foot*/
+
+/*START FOOTER*/
+footer{
+  overflow: hidden;
+  padding: 40px;
+  background-color: #7A8388;
+}
+
+footer .foot2{
+
+  padding: 26px 0 0 0;
+
+
+}
+footer .foot2 h3{
+  color: white;
+  margin-bottom: 25px;
+
+
+}
+footer .foot2 p{
+  list-style: none;
+  color: #ebebeb;
+
+
+}
+
+
+/*COPY*/
+
+.copy{
+  text-align: center;
+  background-color: #7BB3AC;
+  padding: 16px;
+}
+.copy .text-copy{
+  display: inline-block;
+  width: auto;
+  color: white;
+}
+
+
+.copy ul{
+  list-style: none;
+  display: inline-block;
+  float: right;
+}
+.copy ul li{
+  display: inline-block;
+  color: wheat;
+  padding-left: 23px;
+  cursor: pointer ;
+}
+@media (max-width:500px){
+  .copy .text-copy{
+    display: block;
+  }
+  .copy ul{
+    float: none;
+    margin: 10px 0 0;
+  }
+}
